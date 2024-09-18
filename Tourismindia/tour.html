@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharat Darshan-Sightseeing India</title>
+  <link rel="stylesheet" href="tour.css">
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="flex h-[80px] sticky top-0 bg-white z-50 items-center justify-between px-[90px]">
+    <!-- Logo -->
+    <img src="bharatdarshan-removebg-preview.png" class="w-[150px] h-[150px]">
+    
+    <!-- Navigation Links -->
+    <ul class="flex space-x-[75px] text-[20px]  mt-[10px] ml-[300px]"> 
+      <li class="hover:border-b-4 hover:border-black cursor-pointer font-bold text-xl"><a href="#home">Home</a></li>
+      <li class="relative group cursor-pointer">
+        <a class="hover:border-b-4 hover:border-black font-bold text-xl" href="#Destinations">Destinations</a>      
+        <!-- Dropdown -->
+        <ul class="dropdown absolute hidden group-hover:block bg-white shadow-lg py-2 rounded-lg w-40">
+          <li><a href="http://127.0.0.1:5500/projects/Tourismindia/mumbai.html" class="block px-4 py-2 hover:bg-gray-200">Mumbai</a></li>
+          <li><a href="http://127.0.0.1:5500/projects/Tourismindia/delhi.html" class="block px-4 py-2 hover:bg-gray-200">Delhi</a></li>
+          <li><a href="http://127.0.0.1:5500/projects/Tourismindia/jaipur.html" class="block px-4 py-2 hover:bg-gray-200">Jaipur</a></li>
+          <li><a href="" class="block px-4 py-2 hover:bg-gray-200">Amritsar</a></li>
+        </ul>
+      </li>
+      <li class="hover:border-b-4 hover:border-black cursor-pointer font-bold text-xl"><a href="#explore">Explore</a></li>
+      <li class="hover:border-b-4 hover:border-black cursor-pointer font-bold text-xl"><a href="#Contact">Contact</a></li>
+      <li><button class="ml-[80px] border-2 border-black text-bold p-2 mt-[-10px] btn2  hover:bg-blue-500 rounded-[5px] hover:text-white">Sign In/Log In</button></li>
+    </ul>
+    
+   
+</nav>
+  <section id="home">
+    <div class="img  max-w-full h-[88vh] ml-[10px] mr-[10px] mt-[7px] rounded-[15px]">
+      <div class="heading flex-col text-center ">
+        <h1 class="head1 text-white pt-[170px] text-[100px] z-50">भारत दर्शन</h1>
+        <h2 class="text-white pt-[10px] text-[30px] z-50">-Sightseeing India-</h2>
+      </div>
+    </div>
+  </section>
+  <section id="Destinations" class="flex flex-col justify-center items-center">
+    <h1 class="text-center mt-[70px] text-[60px]">Destinations</h1>
+    
+    <!-- Centered Divs One Below Another -->
+    <div class="Mumbai border-2 w-[80vw] border-black rounded-[15px] h-[360px] mb-[20px] flex" id="one">
+      <img src="../Tourismindia/assets/tajimg.jpg"  class="h-[340px] m-[10px] rounded-[15px]">
+      <div class="writeup">
+        <h1 class="mt-[50px] text-5xl font-bold text-center">Mumbai</h1>
+        <p class="m-[25px] text-lg">Mumbai, often called the "City of Dreams," is India's bustling financial and entertainment capital. Known for its vibrant energy, it seamlessly blends modernity with tradition, featuring everything from glamorous Bollywood studios and historic landmarks to serene beaches and bustling markets. As a melting pot of diverse cultures and opportunities, Mumbai offers a unique and dynamic experience for both residents and visitors.
+        </p>
+      </div>
+    </div>
+    <div class="Mumbai border-2 w-[80vw] border-black rounded-[15px] h-[360px] mb-[20px] flex" id="two">
+      <div class="writeup">
+        <h1 class="mt-[50px] text-5xl font-bold text-center">Delhi</h1>
+        <p class="m-[25px] text-lg">Step into the heart of India with a visit to Delhi, where centuries of history blend seamlessly with modern energy. Marvel at the grandeur of the Red Fort, explore the intricacies of Humayun’s Tomb, and stroll through the vibrant bazaars of Chandni Chowk. From the majestic India Gate to the serene Lotus Temple, Delhi offers a captivating journey through time, culture, and cuisine.</p>
+      </div>
+      <img src="../Tourismindia/assets/redfort.jpg" class="h-[340px] m-[10px] rounded-[15px]">
+    
+    </div>
+    <div class="Mumbai border-2 w-[80vw] border-black rounded-[15px] h-[360px] mb-[20px] flex" id="three">
+      <img src="../Tourismindia/assets/hawamehal.jpg" class="h-[340px] m-[10px] rounded-[15px]">
+      <div class="writeup">
+        <h1 class="mt-[50px] text-5xl font-bold text-center">Jaipur</h1>
+        <p class="m-[25px] text-lg">Experience the royal grandeur of Jaipur, the Pink City, where every corner echoes the rich history of Rajasthan's maharajas. Explore the majestic Amer Fort, admire the intricate architecture of Hawa Mahal, and wander through the vibrant bazaars brimming with traditional handicrafts. With its stunning palaces, colorful culture, and warm hospitality, Jaipur promises an unforgettable journey into India's regal past.
+        </p>
+      </div>
+    </div>
+    <div class="Mumbai border-2 w-[80vw] border-black rounded-[15px] h-[360px] mb-[20px] flex" id="four">
+      <div class="writeup">
+        <h1 class="mt-[50px] text-5xl font-bold text-center">Amritsar</h1>
+        <p class="m-[25px] text-lg">Immerse yourself in the spiritual and cultural heart of Punjab with a visit to Amritsar. Marvel at the Golden Temple, a symbol of peace and devotion, and witness the vibrant Wagah Border ceremony. Explore the historic Jallianwala Bagh and savor the rich flavors of Punjabi cuisine. Amritsar offers a deeply moving and unforgettable experience, blending history, spirituality, and tradition.</p>
+      </div>
+      <img src="../Tourismindia/assets/jalianwalabagh.jpg" class="h-[340px] m-[10px] rounded-[15px]">
+      
+    </div>
+    
+  </section>
+<section id="explore"> 
+
+    <h1 class="text-[60px] mt-[70px] text-center">Explore More...</h1>
+    <div class="serch flex justify-center items-center mt-[30px]">
+      <input type="text" placeholder="Search a city..." class="border-2 p-[10px] rounded-[5px] w-[280px]">
+      <button class="border-2 bg-blue-500 text-white ml-[10px] p-[10px] rounded-[5px] hover:border-black">Search</button>
+    </div>
+    <div class="cards grid grid-cols-3 gap-6 p-10">
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center flex-col items-center justify-center hover:border-[3px] hover:border-black transition-all duration-300 ease-in-out
+      " >
+        
+        <img src="../Tourismindia/assets/ayodhya.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Ayodhya</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center" >
+        
+        <img src="../Tourismindia/assets/udaipurlake.jpeg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Udaipur</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center" >
+        
+        <img src="../Tourismindia/assets/agra.jpeg" class="w-[580px] h-[80%] rounded-[15px] hover:border-[3px]">
+        <h1 class="text-3xl mt-[25px] ">Agra</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center">
+        
+        <img src="../Tourismindia/assets/kolkata.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Kolkata</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center">
+        
+        <img src="../Tourismindia/assets/hampi.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Hampi</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center">
+        
+        <img src="../Tourismindia/assets/varanasi.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Varanasi</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center">
+        
+        <img src="../Tourismindia/assets/massorie.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Mussoorie</h1>
+        
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center">
+       
+        <img src="../Tourismindia/assets/kutch.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Kutch</h1>
+       
+      </div>
+      <div class="card border-2 p-4 rounded-lg shadow-md text-center hover:border-[3px] hover:border-black flex-col items-center justify-center">
+        
+        <img src="../Tourismindia/assets/chennai.jpg" class="w-[580px] h-[80%] rounded-[15px]">
+        <h1 class="text-3xl mt-[25px] ">Chennai</h1>
+        
+      </div>
+    </div>
+  </section> 
+
+
+<section class="flex justify-center items-center h-screen bg-gray-100" id="Contact">
+  <form onsubmit="sendemail(); reset(); return false">
+
+    <div class="bg-white p-8 rounded-lg shadow-lg w-[80vw]">
+      <h2 class="text-[70px] font-semibold text-gray-700 text-center mb-6">Contact Us</h2>
+
+      <!-- Email Input -->
+      <div class="mb-4">
+        <input 
+          type="email" 
+          id="email" 
+          placeholder="Enter your email" 
+          class="border-2 border-gray-300 w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent placeholder-gray-500"
+          required
+        >
+      </div>
+
+      <!-- Subject Input -->
+      <div class="mb-4">
+        <input 
+          type="text" 
+          id="subject" 
+          placeholder="Enter the subject" 
+          class="border-2 border-gray-300 w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent placeholder-gray-500"
+          required
+        >
+      </div>
+
+      <!-- Phone Number Input -->
+      <div class="mb-4">
+        <input 
+          type="tel" 
+          id="phone" 
+          placeholder="Enter your phone number" 
+          class="border-2 border-gray-300 w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent placeholder-gray-500"
+          required
+        >
+      </div>
+
+      <!-- Message Input -->
+      <div class="mb-4">
+        <textarea 
+          id="message" 
+          placeholder="Type your message..." 
+          class="border-2 border-gray-300 w-full h-[20vh] text-left placeholder:text-left placeholder:align-text-top placeholder-gray-500 pt-4 pl-4 text-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition duration-300"
+          required
+        ></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button class="w-[50vw] ml-[200px] bg-blue-500 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition duration-300">Send Message</button>
+    </div>
+  </form>
+</section>
+<footer class="bg-black text-white py-8"> 
+  <div class="container mx-auto px-6">
+  
+    <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+    
+      <div class="mb-6 md:mb-0">
+        <h2 class="text-3xl font-bold">भारत दर्शन</h2>
+        <p class="mt-2 text-gray-400">Explore the beauty of India, one destination at a time.</p>
+      </div>
+
+     
+      <div class="flex space-x-6">
+        <a href="https://www.instagram.com/rishabh_jain610?igsh=MXNoa3lxYTVnNmQyNw==" class="text-gray-400 hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/rishabh-jain-a60ab8295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-gray-400 hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+        <a href="https://github.com/Rishabhjain610" class="text-gray-400 hover:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-current" viewBox="0 0 496 512">
+              <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+          </svg>
+      </a>
+      
+      </div>
+    </div>
+
+    
+    <div class="flex flex-col md:flex-row justify-between text-gray-400">
+      
+      <div class="mb-6 md:mb-0">
+        <h3 class="font-semibold text-white mb-3">Quick Links</h3>
+        <ul>
+          <li class="mb-2"><a href="#home" class="hover:text-white">Home</a></li>
+          <li class="mb-2"><a href="#Destinations" class="hover:text-white">Destinations</a></li>
+          
+          <li><a href="http://127.0.0.1:5500/projects/Tourismindia/tour.html#Contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="mb-6 md:mb-0">
+        <h3 class="font-semibold text-white mb-3">Legal</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:text-white">Privacy Policy</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-white">Terms of Service</a></li>
+          <li><a href="#" class="hover:text-white">Disclaimer</a></li>
+        </ul>
+      </div>
+
+     
+      <div>
+        <h3 class="font-semibold text-white mb-3">Explore</h3>
+        <ul>
+          <li class="mb-2"><a href="http://127.0.0.1:5500/projects/Tourismindia/mumbai.html" class="hover:text-white">Mumbai</a></li>
+          <li class="mb-2"><a href="http://127.0.0.1:5500/projects/Tourismindia/delhi.html" class="hover:text-white">Delhi</a></li>
+          <li class="mb-2"><a href="http://127.0.0.1:5500/projects/Tourismindia/jaipur.html" class="hover:text-white">Jaipur</a></li>
+          <li><a href="http://127.0.0.1:5500/projects/Tourismindia/amritsar.html" class="hover:text-white">Amritsar</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="mt-8 text-center text-gray-500 text-sm">
+      <p>© 2024 भारत दर्शन. All rights reserved.</p>
+    </div>
+  </div>
+</footer> 
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="tour.js"></script>
+</body>
+</html>

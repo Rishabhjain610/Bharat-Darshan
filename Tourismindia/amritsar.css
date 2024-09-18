@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #138808 20%, #FFFFFF 40%, #FF9933 60%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-right: 10px; /* Margin between the circle and text */
+  margin-left: 50px;
+  margin-top:15px;
+}
+.logo{
+  
+  font-family: 'Arial', sans-serif;
+  font-size: 33px; 
+  font-weight: bold;
+  color: black;
+}
+.bg{
+  background-image: url("../Tourismindia/assets/goldentemple.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.navbar{
+  background-color: #FFFFFF;
+}
+.card{
+  box-shadow: black 10px 10px 15px;
+}
+.slides {
+  transition: transform 0.5s ease-in-out;
+}
+.pic{
+  box-shadow: 5px 5px 10px black;
+}
